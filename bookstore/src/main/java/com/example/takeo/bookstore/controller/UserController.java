@@ -11,7 +11,7 @@ import com.example.takeo.bookstore.model.User;
 import com.example.takeo.bookstore.service.UserService;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping
 public class UserController {
     private UserService userService;
 
